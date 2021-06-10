@@ -2,6 +2,12 @@
 # Pensar una manera mas eficiente de obtener alumnos en base a la matricula
 # La matricula se debe poder ingresar por un input del programa pista: input()
 
+# El usuario debe ingresar un numero de matricula, y una funciona tiene que responder
+# con los datos de ese alumno
+
+# Limitacion: No se puede usar for.
+# Tiene que ser una funcion
+
 # Lista de diccionarios
 alumnos = [
     {"nombre": "Pepe", "apellido": "Perez", "matricula": 435},
