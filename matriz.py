@@ -50,7 +50,27 @@ for x in range(0, len(numeros)):
 print("Mi maximo es: ", maximo)
 print("Y esta en la posicion: ", indice_max)
 
+# Resolucion ejercicio 1:
+# 1) Invertir el ranking, es decir
+# quiero ver desde el ultimo al primero:
+
+ranking  = [[1, "Maluma"], [2, "Blackpink"], [3, "Calamaro"], [4, "Radiohead"]]
+for x in ranking:
+    print(x)
+
+for x in range(0, len(ranking)):
+    print(ranking[x])
+
+#invertido = []
+#for x in ranking:
+#    invertido.append(x)
+
+invertido = []
+x = len(ranking) -1
+while x >= 0:
+    invertido.append(ranking[x])
+    print(x)
+    x -= 1 
 
 
- 
-  
+print("Mi lista final es: ", invertido)
